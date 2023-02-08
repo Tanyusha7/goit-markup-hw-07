@@ -37,14 +37,6 @@ body {
   list-style: none;
 }
 
-.list-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.list-item:not(:last-child) {
-  margin-right: 24px;
-}
-
 h1,
 h2,
 h3,
@@ -65,7 +57,7 @@ p {
   line-height: 1.11;
 
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+
   color: var(--main-title-color);
 }
 
@@ -99,7 +91,8 @@ p {
 }
 
 .container {
-  max-width: 1158px;
+  /* max-width: 1158px; */
+  width: 100%;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -224,7 +217,7 @@ img {
 /* hero */
 
 .hero {
-  padding: 188px 0;
+  /* padding: 188px 0;
   text-align: center;
   background: var(--second-bcg-color);
 
@@ -238,7 +231,7 @@ img {
   background-size: cover;
   max-width: 1440px;
   height: 600px;
-  margin: auto;
+  margin: auto; */
 }
 
 .hero-title {
@@ -382,17 +375,44 @@ img {
 
 /* section1 */
 .feature {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .feature-list {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
 }
 
-.list .list-item {
-  width: 264px;
-  text-align: left;
+.feature-subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
 }
+
+.feature-text {
+  font-weight: 500;
+}
+
+/* .list-item {
+  width: calc((100% - 72px) / 4);
+  
+} */
+
+/* .list-item:not(:last-child) {
+  margin-right: 24px;
+} */
+
+.list-item {
+  /* width: 264px; */
+  text-align: left;
+  width: 100%;
+}
+
+/* .list-item:not(:last-child) {
+  margin-bottom: 72px;
+} */
 
 .icon {
   display: flex;
@@ -422,14 +442,19 @@ img {
 
 /* section3 */
 .team {
-  padding: 120px 0;
+  padding-top: 96px;
+  padding-bottom: 128px;
   background: var(--third-bcg-color);
 }
 
-.about-team {
+.container-small {
+  padding: 0 82px;
+}
+
+.team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 72px;
 }
 
 .card-content {
@@ -471,7 +496,7 @@ img {
 .social-list-link:focus .social-list-icon {
   fill: aqua;
 } */
-.team-card {
+.team-list-item {
   display: inline-block;
   text-align: center;
 
@@ -483,17 +508,18 @@ img {
 
 /* section4 */
 .customers {
-  padding: 130px 0 120px 0;
+  padding: 96px 0;
 }
 
 .logo-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  /* width: ((100% - 16px)/2); */
+  gap: 72px 16px;
 }
 
 .logo-list-item {
-  width: 168px;
+  width: 190px;
 }
 
 .logo-list-link {
