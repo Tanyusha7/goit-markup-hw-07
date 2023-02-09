@@ -1,7 +1,25 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1128px;
+    max-width: 1160px;
   }
+
+  .portfolio {
+    padding: 96px 0 120px 0;
+  }
+
+  .list-btn {
+    margin-bottom: 72px;
+  }
+
+  .image-list {
+    row-gap: 48px;
+    column-gap: 24px;
+  }
+
+  .image-item {
+    width: calc((100% - 48px) / 3);
+  }
+
   .feature-subtitle {
     text-align: left;
     font-weight: 500;
@@ -36,5 +54,21 @@
 
   .logo-list {
     gap: 24px;
+  }
+
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-link {
+    margin-left: 120px;
+  }
+
+  .footer-form {
+    margin-left: 80px;
+  }
+
+  .footer-mail {
+    width: 265px;
   }
 }

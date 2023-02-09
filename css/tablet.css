@@ -1,7 +1,28 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
+  }
+
+  .portfolio {
+    padding: 64px 0 96px 0;
+  }
+
+  .list-btn {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  .image-list {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .image-item {
+    width: calc((100% - 24px) / 2);
+
     padding: 0;
+    border: 0.5px solid #f4f4fd;
   }
 
   .feature-list {
@@ -44,5 +65,15 @@
 
   .about {
     display: none;
+  }
+
+  .footer-container {
+    gap: 72px 24px;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    width: 455px;
   }
 }
