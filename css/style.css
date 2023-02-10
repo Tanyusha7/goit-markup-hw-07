@@ -217,7 +217,7 @@ img {
 /* hero */
 
 .hero {
-  padding: 188px 0;
+  padding: 112px 0;
   text-align: center;
   background: var(--second-bcg-color);
 
@@ -225,21 +225,37 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/people-office.jpg);
+    url(../images/hero/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
-  height: 600px;
+  max-width: 100%;
+  height: 100%;
   margin: auto;
 }
 
-.hero-title {
-  width: 500px;
-  margin: 0 auto 64px;
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/hero-mob2x.jpg);
+  }
+}
 
-  font-size: 56px;
-  line-height: 1.07;
+.hero > .container {
+  padding: 0;
+}
+
+.hero-title {
+  width: 320px;
+  margin: 0 auto 72px;
+
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
 }
@@ -456,6 +472,7 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   row-gap: 72px;
 }
 

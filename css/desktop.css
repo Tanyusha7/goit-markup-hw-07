@@ -3,6 +3,18 @@
     max-width: 1160px;
   }
 
+  .hero {
+    padding: 188px;
+
+    max-width: 1440px;
+    height: 600px;
+    margin: auto;
+  }
+
+  .hero-title {
+    margin: 0 auto 48px;
+  }
+
   .portfolio {
     padding: 96px 0 120px 0;
   }
