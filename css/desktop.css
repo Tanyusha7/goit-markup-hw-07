@@ -25,7 +25,6 @@
 
   .image-list {
     row-gap: 48px;
-    column-gap: 24px;
   }
 
   .image-item {
@@ -56,20 +55,22 @@
     padding: 120px 0;
   }
 
-  .container-small {
-    width: 1128px;
-  }
-
   .customers {
     padding: 120px 0;
   }
 
   .logo-list {
-    gap: 24px;
+    gap: 0 24px;
   }
 
   .footer {
     padding: 100px 0;
+  }
+
+  .footer-container {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 0;
   }
 
   .footer-link {
@@ -78,9 +79,5 @@
 
   .footer-form {
     margin-left: 80px;
-  }
-
-  .footer-mail {
-    width: 265px;
   }
 }

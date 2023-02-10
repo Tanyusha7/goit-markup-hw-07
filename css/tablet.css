@@ -43,6 +43,7 @@
   }
 
   .image-list {
+    justify-content: space-between;
     row-gap: 72px;
     column-gap: 24px;
   }
@@ -69,21 +70,51 @@
   .team {
     padding-bottom: 104px;
   }
-  .container-small {
-    width: 552px;
-    padding: 0;
-  }
 
   .team-list {
     gap: 64px 24px;
   }
 
-  /* .logo-list {
-    width: ((100% - 32px) / 3);
-  } */
+  .logo-list {
+    gap: 72px 24px;
+  }
 
   .logo-list-item {
     width: 168px;
+  }
+
+  .footer-container {
+    gap: 72px 24px;
+  }
+
+  .footer-logo {
+    text-align: left;
+  }
+  .footer-subtitle {
+    text-align: left;
+  }
+
+  .form {
+    width: 453px;
+    flex-direction: row;
+  }
+
+  .footer-mail {
+    width: 265px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .btn-subscribe {
+    margin-bottom: 0;
+  }
+
+  .frame {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    margin-left: 16px;
+    transform: translateY(-50%);
+    fill: var(--main-bcg-color);
   }
 }
 
@@ -94,15 +125,5 @@
 
   .about {
     display: none;
-  }
-
-  .footer-container {
-    gap: 72px 24px;
-  }
-
-  .form {
-    display: flex;
-    align-items: center;
-    width: 455px;
   }
 }

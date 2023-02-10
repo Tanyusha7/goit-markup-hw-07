@@ -25,4 +25,8 @@
         url(../images/hero/hero-tab2x.jpg);
     }
   }
+
+  .card-content {
+    padding: 32px 0;
+  }
 }
