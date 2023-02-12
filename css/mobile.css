@@ -25,6 +25,16 @@
         url(../images/hero/hero-tab2x.jpg);
     }
   }
+  .mob-menu > .container {
+    width: 372px;
+  }
+  .mob-contact-tel {
+    font-size: 36px;
+  }
+
+  .mob-social-list {
+    gap: 56px;
+  }
 
   .card-content {
     padding: 32px 0;

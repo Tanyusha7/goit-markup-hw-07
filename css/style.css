@@ -161,18 +161,12 @@ img {
 
 .mob-menu {
   position: fixed;
-
   top: 0;
   z-index: 1;
   padding: 40px 0;
-  padding-left: 40px;
+
   width: 100%;
   height: 100vh;
-
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  justify-content: space-between;
 
   background-color: var(--main-bcg-color);
   transition: opacity 250ms var(--tm-function),
@@ -183,6 +177,14 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.mob-menu > .container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mob-btn-close {
@@ -263,7 +265,7 @@ img {
 .mob-social-list {
   display: flex;
 
-  justify-content: start;
+  justify-content: flex-start;
   gap: 35px;
 }
 
