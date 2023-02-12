@@ -29,4 +29,16 @@
   .card-content {
     padding: 32px 0;
   }
+
+  .modal {
+    width: 410px;
+  }
+
+  .modal-form {
+    width: 360px;
+  }
+
+  .modal-chec-desc {
+    margin-bottom: 24px;
+  }
 }

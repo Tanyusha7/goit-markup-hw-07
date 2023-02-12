@@ -3,6 +3,17 @@
     max-width: 1160px;
   }
 
+  .contact-item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .contact-list {
+    display: flex;
+  }
+  .contact-list .link {
+    display: block;
+    padding: 24px 0;
+  }
   .hero {
     padding: 188px;
 
