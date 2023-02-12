@@ -3,7 +3,7 @@
     max-width: 1160px;
   }
 
-  .current-tab::after {
+  /* .current-tab::after {
     display: none;
   }
   .current {
@@ -22,7 +22,7 @@
 
     background-color: var(--accent-color);
     border-radius: 2px;
-  }
+  } */
 
   .contact-item:not(:last-child) {
     margin-right: 40px;
