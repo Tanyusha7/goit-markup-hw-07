@@ -40,15 +40,15 @@
     padding: 32px 0;
   }
 
+  .logo-list-item {
+    width: 190px;
+  }
+
   .modal {
-    width: 410px;
+    width: 392px;
   }
 
   .modal-form {
     width: 360px;
-  }
-
-  .modal-chec-desc {
-    margin-bottom: 24px;
   }
 }

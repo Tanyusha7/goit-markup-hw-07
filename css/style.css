@@ -149,10 +149,10 @@ img {
 /* ------MOB-MENU------ */
 .menu-btn-open {
   display: block;
+
   padding: 0;
   background-color: transparent;
   border: none;
-  /* fill: #2e2f42; */
 }
 
 .mob-btn-icon-open {
@@ -208,15 +208,6 @@ img {
   background-color: var(--accent-color);
   fill: var(--second-btn-text-color);
 }
-/* 
-.mob-btn-icon-close {
-}
-
-.mob-list {
-}
-
-.mob-item {
-} */
 
 .mob-item:not(:last-child) {
   margin-bottom: 40px;
@@ -601,12 +592,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* width: ((100% - 16px) / 2); */
+
   gap: 72px 16px;
 }
 
 .logo-list-item {
-  width: 190px;
+  width: calc((100% - 16px) / 2);
 }
 
 .logo-list-link {
@@ -800,7 +791,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100vw;
-  height: 585px;
+  min-height: 585px;
 
   padding: 72px 24px 24px;
 
@@ -955,7 +946,7 @@ img {
   display: flex;
   align-items: center;
 
-  margin-bottom: 5px;
+  margin-bottom: 24px;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;

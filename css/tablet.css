@@ -43,7 +43,7 @@
 
   .header-list .link {
     display: block;
-    padding: 24px 0;
+    padding: 24px 0 22px 0;
   }
 
   .header-links:not(:last-child) {
@@ -88,7 +88,6 @@
 
   .contact-list {
     display: block;
-
     margin-left: auto;
   }
 
@@ -199,11 +198,20 @@
     transform: translateY(-50%);
     fill: var(--main-bcg-color);
   }
+
+  .modal {
+    width: 408px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contact-item:not(:last-child) {
     margin-bottom: 4px;
+  }
+
+  .contact-link,
+  .contact-tel {
+    font-size: 12px;
   }
 }
 
