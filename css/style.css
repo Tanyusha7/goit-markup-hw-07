@@ -185,6 +185,7 @@ img {
 
   flex-direction: column;
   justify-content: space-between;
+  overflow-y: auto;
 }
 
 .mob-btn-close {
